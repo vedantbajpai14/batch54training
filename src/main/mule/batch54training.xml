@@ -8,7 +8,7 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 		<http:listener-connection host="0.0.0.0" port="8081" />
 	</http:listener-config>
 	<flow name="batch54trainingFlow" doc:id="f9e10e3c-a8af-4cc8-afe8-345239035b19" >
-		<http:listener doc:name="Listener" doc:id="24ed9650-38d1-47e0-8f15-7ce8c1d25736" config-ref="HTTP_Listener_config" path="/test"/>
+		<http:listener doc:name="Listener" doc:id="24ed9650-38d1-47e0-8f15-7ce8c1d25736" config-ref="HTTP_Listener_config" path="/testabc"/>
 		<logger level="INFO" doc:name="Logger" doc:id="a78e10e0-1902-48a0-84c7-53ceb17a76c3" message="first logger"/>
 		<logger level="INFO" doc:name="Logger" doc:id="997b011d-ebb1-4edc-93f6-62f4a411e00f" />
 	</flow>
